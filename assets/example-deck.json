@@ -1,0 +1,475 @@
+{
+  "title": "Example campaign — production spec deck",
+  "author": "specs-to-slides",
+  "footer": "Example campaign  ·  Autumn 2026",
+  "theme": {
+    "font": "Arial"
+  },
+  "slides": [
+    {
+      "type": "cover",
+      "eyebrow": "PRODUCTION SPECS  ·  AUTUMN 2026",
+      "title": "Example campaign",
+      "subtitle": "Material requirements by channel",
+      "meta": [
+        "Social  ·  Display  ·  Print",
+        "Campaign period 1 Sep – 31 Oct 2026"
+      ],
+      "frames": [
+        {
+          "label": "9:16",
+          "w": 1080,
+          "h": 1920
+        },
+        {
+          "label": "1:1",
+          "w": 1080,
+          "h": 1080
+        }
+      ],
+      "note": "First deadline 21 Aug 2026",
+      "notes": "Frames are drawn to true relative scale. The deck is imported into Canva and finished artwork is dropped onto the frames."
+    },
+    {
+      "type": "overview",
+      "eyebrow": "OVERVIEW",
+      "title": "Deliverables",
+      "cardHeight": 3.4,
+      "cards": [
+        {
+          "title": "Social",
+          "subtitle": "3 asset groups",
+          "lines": [
+            "Brand image 1:1",
+            "Brand image 9:16",
+            "Carousel 1:1, 3–7 cards"
+          ],
+          "note": "Same assets for both flights"
+        },
+        {
+          "title": "Display",
+          "subtitle": "2 sizes",
+          "lines": [
+            "Desktop 620 × 891",
+            "Mobile 310 × 446",
+            "GIF / JPEG / PNG / HTML5"
+          ],
+          "note": "Recommended size 300 kB"
+        },
+        {
+          "title": "Print",
+          "subtitle": "1 layout",
+          "lines": [
+            "Full-page ad, 3 magazines",
+            "Same size in all three",
+            "Print-ready PDF"
+          ],
+          "note": "First deadline 21 Aug 2026"
+        }
+      ],
+      "note": "1–2 variations are produced per format.",
+      "notes": "Consolidation: all three magazines use the same size, so one print layout covers them."
+    },
+    {
+      "type": "format",
+      "eyebrow": "SOCIAL",
+      "title": "Brand images",
+      "frames": [
+        {
+          "label": "1:1",
+          "w": 1080,
+          "h": 1080,
+          "caption": "1080 × 1080 px",
+          "sub": "JPG / PNG · 1–2 images"
+        },
+        {
+          "label": "9:16",
+          "w": 1080,
+          "h": 1920,
+          "caption": "1080 × 1920 px",
+          "sub": "JPG / PNG · 1–2 images"
+        }
+      ],
+      "frameOpts": {
+        "top": 2.32,
+        "maxH": 3.2,
+        "availW": 5.2,
+        "gap": 0.5
+      },
+      "blocks": [
+        {
+          "kind": "heading",
+          "text": "CHARACTER LIMITS",
+          "color": "muted",
+          "x": 6.2,
+          "y": 1.98,
+          "w": 2.5
+        },
+        {
+          "kind": "list",
+          "x": 6.2,
+          "y": 2.32,
+          "w": 2.5,
+          "lines": [
+            {
+              "label": "Body copy",
+              "value": "max. 100 characters"
+            },
+            {
+              "label": "Headline",
+              "value": "max. 27 characters"
+            },
+            {
+              "label": "Link text",
+              "value": "max. 30 characters"
+            }
+          ]
+        }
+      ],
+      "guide": {
+        "heading": "MATERIAL SPECS",
+        "items": [
+          "File format JPG or PNG",
+          "1–2 images per aspect ratio",
+          "Material deadline 7 Sep 2026"
+        ]
+      },
+      "notes": "1:1 and 9:16 share a slide because the character limits and file format are identical — only the aspect ratio changes. Source rows 4–5. The spec does not mention safe zones; that sits on the findings slide as a question, not here as an instruction."
+    },
+    {
+      "type": "format",
+      "eyebrow": "SOCIAL",
+      "title": "Safe zones",
+      "frames": [
+        {
+          "label": "1:1",
+          "w": 1440,
+          "h": 1440,
+          "caption": "1440 × 1440 px",
+          "sub": "top/bottom 14 % · sides 50 px",
+          "overlay": {
+            "type": "safearea",
+            "top": 0.14,
+            "bottom": 0.14,
+            "sides": 0.046
+          }
+        },
+        {
+          "label": "9:16",
+          "w": 1440,
+          "h": 2560,
+          "caption": "1440 × 2560 px",
+          "sub": "top 14 % · bottom 20 % · sides 50 px",
+          "overlay": {
+            "type": "safearea",
+            "top": 0.14,
+            "bottom": 0.2,
+            "sides": 0.046
+          }
+        }
+      ],
+      "frameOpts": {
+        "top": 2.32,
+        "maxH": 3.3,
+        "availW": 4.6
+      },
+      "blocks": [
+        {
+          "kind": "legend",
+          "x": 0.72,
+          "y": 6.12,
+          "horizontal": true,
+          "hstep": 3.1,
+          "w": 2.7,
+          "items": [
+            {
+              "swatch": "safe",
+              "text": "Free area for creative elements"
+            },
+            {
+              "swatch": "frame",
+              "text": "Publisher frame, logo and UI"
+            }
+          ]
+        }
+      ],
+      "guide": {
+        "heading": "WHY THIS MATTERS",
+        "items": [
+          "The publisher adds a frame and a logo to the ad",
+          "Leave approx. 14 % clear at the top and bottom (250 px)",
+          "Leave approx. 50 px clear at the sides",
+          "In vertical formats leave approx. 20 % clear at the bottom (350 px)",
+          "This keeps the frame or the call to action from covering text or the logo"
+        ]
+      },
+      "notes": "The safe-zone measurements come from the source spec (row 6). If a spec does not state safe zones, this slide is not made at all — the missing information goes on the findings slide as a question."
+    },
+    {
+      "type": "format",
+      "eyebrow": "DISPLAY",
+      "title": "Homepage banner",
+      "frames": [
+        {
+          "label": "1:1",
+          "w": 900,
+          "h": 900,
+          "caption": "900 × 900 px",
+          "sub": "Image · JPG · max. 150 kB",
+          "overlay": {
+            "type": "margins",
+            "bottom": 148,
+            "sides": 76,
+            "label": "Headline goes here"
+          }
+        },
+        {
+          "label": "1:1",
+          "w": 120,
+          "h": 120,
+          "caption": "120 × 120 px",
+          "sub": "Logo · PNG, transparent",
+          "capW": 2.3
+        }
+      ],
+      "frameOpts": {
+        "top": 2.32,
+        "maxH": 3.1,
+        "availW": 5.6,
+        "gap": 0.5
+      },
+      "blocks": [
+        {
+          "kind": "legend",
+          "x": 0.72,
+          "y": 6.15,
+          "w": 7.4,
+          "items": [
+            {
+              "swatch": "frameDark",
+              "text": "Margin area: bottom 148 px, sides 76 px — the edges of the image are cropped"
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "x": 0.72,
+          "y": 6.5,
+          "w": 7.4,
+          "italic": true,
+          "size": 9,
+          "text": "Frames are drawn to true relative scale."
+        }
+      ],
+      "guide": {
+        "items": [
+          "Image 900 × 900 px, max. 150 kB, JPG",
+          "No logo and no text in the image",
+          "Part of the edges is always cropped — keep the focal point centred",
+          "Logo 120 × 120 px, PNG, transparent background",
+          "Headline 15–25 characters (recommended), max. 40"
+        ]
+      },
+      "notes": "The logo really is small relative to the banner — the frames show the true size relationship, not just the aspect ratio."
+    },
+    {
+      "type": "format",
+      "eyebrow": "PRINT",
+      "title": "Full-page ad — all 3 magazines",
+      "frames": [
+        {
+          "label": "230 × 297 mm",
+          "w": 240,
+          "h": 307,
+          "caption": "Document 240 × 307 mm",
+          "sub": "Trim size 230 × 297 mm + 5 mm bleed",
+          "capW": 3.0,
+          "overlay": {
+            "type": "bleed",
+            "doc": {
+              "w": 240,
+              "h": 307
+            },
+            "bleed": 5,
+            "safe": 5
+          }
+        }
+      ],
+      "frameOpts": {
+        "top": 2.32,
+        "maxH": 3.3,
+        "availW": 2.6
+      },
+      "blocks": [
+        {
+          "kind": "legend",
+          "x": 3.5,
+          "y": 2.32,
+          "w": 3.6,
+          "items": [
+            {
+              "swatch": "frameDark",
+              "text": "Bleed 5 mm — the image continues past the edge"
+            },
+            {
+              "swatch": "frame",
+              "text": "Trim size 230 × 297 mm"
+            },
+            {
+              "swatch": "safe",
+              "text": "Safe area — keep text at least 5 mm from the edge"
+            }
+          ]
+        },
+        {
+          "kind": "heading",
+          "text": "ONE FILE COVERS ALL THREE",
+          "x": 3.5,
+          "y": 3.5,
+          "w": 5.2
+        },
+        {
+          "kind": "table",
+          "x": 3.5,
+          "y": 3.86,
+          "w": 5.2,
+          "colW": [
+            1.9,
+            1.3,
+            1.3,
+            0.7
+          ],
+          "size": 9.5,
+          "rowH": 0.36,
+          "headers": [
+            "Magazine",
+            "Published",
+            "Material",
+            "Order"
+          ],
+          "rows": [
+            [
+              "Magazine A",
+              "9 Sep 2026",
+              "21 Aug 2026",
+              "10001"
+            ],
+            [
+              "Magazine B",
+              "16 Sep 2026",
+              "28 Aug 2026",
+              "10002"
+            ],
+            [
+              "Magazine C",
+              "23 Sep 2026",
+              "4 Sep 2026",
+              "10003"
+            ]
+          ]
+        }
+      ],
+      "guide": {
+        "items": [
+          "Trim size 230 × 297 mm",
+          "Bleed 5 mm on every edge → document 240 × 307 mm",
+          "4-colour, CMYK",
+          "Print-ready PDF, include crop marks",
+          "Image resolution 300 dpi (min. 250 dpi) at 1:1 scale",
+          "Maximum total ink coverage 300 %",
+          "Fonts embedded — use OpenType"
+        ]
+      },
+      "notes": "All three magazines use the same size and the same print requirements. Only the delivery date and the order number differ."
+    },
+    {
+      "type": "table",
+      "eyebrow": "PRODUCTION",
+      "title": "Schedule and delivery",
+      "table": {
+        "headers": [
+          "Deadline",
+          "Material",
+          "Delivery",
+          "Contact"
+        ],
+        "colW": [
+          1.65,
+          4.45,
+          3.06,
+          2.7
+        ],
+        "rows": [
+          [
+            "21 Aug 2026",
+            "Magazine A — print",
+            "Upload link",
+            "First Last"
+          ],
+          [
+            "28 Aug 2026",
+            "Magazine B — print",
+            "Upload link",
+            "First Last"
+          ],
+          [
+            "4 Sep 2026",
+            "Magazine C — print",
+            "Upload link",
+            "First Last"
+          ],
+          [
+            "7 Sep 2026",
+            "Social — 3 asset groups",
+            "Files",
+            "First Last"
+          ],
+          [
+            "7 Sep 2026",
+            "Display — 2 banner sizes",
+            "Files",
+            "First Last"
+          ]
+        ]
+      },
+      "highlight": "The first deadline is 21 Aug 2026. The print materials are the most urgent.",
+      "highlightY": 4.5,
+      "notes": "Deadlines are sorted chronologically, not by channel — that is what tells you what to make first."
+    },
+    {
+      "type": "cards",
+      "eyebrow": "PRODUCTION",
+      "title": "Findings and open questions",
+      "perRow": 3,
+      "cardHeight": 1.9,
+      "cards": [
+        {
+          "title": "First deadline is 21 Aug",
+          "body": "Magazine A's material date is three days away. The print materials should be prioritised."
+        },
+        {
+          "title": "Frame rate varies by channel",
+          "body": "The source spec gives two different values for the same creative. One master cannot serve both."
+        },
+        {
+          "title": "Character limits differ by format",
+          "body": "The carousel headline is longer but the link text shorter than for single images. Copy has to be written separately."
+        },
+        {
+          "title": "Delivered asset does not match",
+          "body": "The file claims 900 × 900 px in its name but is 720 × 720 px. Needs re-exporting."
+        },
+        {
+          "title": "Fields missing from the spec",
+          "body": "RGB levels and the audio codec are empty in the source document. Left blank — confirm with the client."
+        },
+        {
+          "title": "Spec does not mention safe zones",
+          "body": "No safe-zone measurements are given for the 9:16 assets. Not added to the deck by default — confirm with the media agency."
+        }
+      ],
+      "note": "These points are to be confirmed with the client. No missing value has been filled in for them in the deck.",
+      "notes": "Cross-check results. Report the findings; do not correct the spec yourself and do not fill blank fields with general knowledge."
+    }
+  ]
+}
