@@ -51,7 +51,7 @@ Every slide takes `type`, `notes` (speaker notes, always write them) and optiona
   "title": "Campaign name",
   "titleSize": 54,                       // drop to 44 for long titles
   "subtitle": "Material requirements by channel",
-  "meta": ["Social · Display · Print", "Campaign period 1 Sep – 31 Oct 2026"],
+  "meta": ["Meta · Display · Print", "Campaign period 1 Sep – 31 Oct 2026"],
   "frames": [ { "label": "9:16", "w": 1080, "h": 1920 } ],
   "note": "First deadline 21 Aug 2026"       // bottom-right, replaces footer
 }
@@ -68,8 +68,8 @@ Every slide takes `type`, `notes` (speaker notes, always write them) and optiona
   "title": "Deliverables",
   "cardHeight": 3.4,                     // tune until the note sits just under the bullets
   "cards": [
-    { "title": "Social", "subtitle": "3 asset groups",
-      "lines": ["Brand image 1:1", "Brand image 9:16"],
+    { "title": "Meta", "subtitle": "3 asset groups",
+      "lines": ["Image ad 9:16", "Image ad 1:1"],
       "note": "Same assets for both flights" }
   ],
   "note": "Line under all cards"
@@ -83,8 +83,8 @@ Every slide takes `type`, `notes` (speaker notes, always write them) and optiona
 ```jsonc
 {
   "type": "format",
-  "eyebrow": "SOCIAL",
-  "title": "Brand images",
+  "eyebrow": "META",
+  "title": "Image ad",
   "frames": [ /* see below */ ],
   "frameOpts": { "top": 2.32, "maxH": 3.2, "availW": 5.2, "gap": 0.5, "left": 0.72 },
   "blocks": [ /* see below */ ],

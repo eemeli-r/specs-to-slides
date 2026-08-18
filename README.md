@@ -4,7 +4,7 @@ A Claude skill that turns media agency material specifications into a production
 
 Built for a workflow that ends in Canva: import the deck, drop finished artwork onto the frames, done.
 
-![slide type: format](docs/example-format.png)
+![A format slide: Meta image ad, 9:16 and 1:1 frames drawn to true relative scale, with character limits and material specs](docs/example-format.png)
 
 ## What it does
 

@@ -12,7 +12,7 @@
       "title": "Example campaign",
       "subtitle": "Material requirements by channel",
       "meta": [
-        "Social  ·  Display  ·  Print",
+        "Meta  ·  Display  ·  Print",
         "Campaign period 1 Sep – 31 Oct 2026"
       ],
       "frames": [
@@ -37,11 +37,11 @@
       "cardHeight": 3.4,
       "cards": [
         {
-          "title": "Social",
+          "title": "Meta",
           "subtitle": "3 asset groups",
           "lines": [
-            "Brand image 1:1",
-            "Brand image 9:16",
+            "Image ad 9:16",
+            "Image ad 1:1",
             "Carousel 1:1, 3–7 cards"
           ],
           "note": "Same assets for both flights"
@@ -72,22 +72,22 @@
     },
     {
       "type": "format",
-      "eyebrow": "SOCIAL",
-      "title": "Brand images",
+      "eyebrow": "META",
+      "title": "Image ad",
       "frames": [
-        {
-          "label": "1:1",
-          "w": 1080,
-          "h": 1080,
-          "caption": "1080 × 1080 px",
-          "sub": "JPG / PNG · 1–2 images"
-        },
         {
           "label": "9:16",
           "w": 1080,
           "h": 1920,
           "caption": "1080 × 1920 px",
-          "sub": "JPG / PNG · 1–2 images"
+          "sub": "Stories & Reels · JPG / PNG"
+        },
+        {
+          "label": "1:1",
+          "w": 1080,
+          "h": 1080,
+          "caption": "1080 × 1080 px",
+          "sub": "Feed · JPG / PNG"
         }
       ],
       "frameOpts": {
@@ -101,27 +101,27 @@
           "kind": "heading",
           "text": "CHARACTER LIMITS",
           "color": "muted",
-          "x": 6.2,
+          "x": 5.5,
           "y": 1.98,
           "w": 2.5
         },
         {
           "kind": "list",
-          "x": 6.2,
+          "x": 5.5,
           "y": 2.32,
           "w": 2.5,
           "lines": [
             {
-              "label": "Body copy",
-              "value": "max. 100 characters"
+              "label": "Primary text",
+              "value": "max. 125 characters"
             },
             {
               "label": "Headline",
               "value": "max. 27 characters"
             },
             {
-              "label": "Link text",
-              "value": "max. 30 characters"
+              "label": "Description",
+              "value": "max. 27 characters"
             }
           ]
         }
@@ -129,41 +129,43 @@
       "guide": {
         "heading": "MATERIAL SPECS",
         "items": [
-          "File format JPG or PNG",
+          "JPG or PNG, max. 30 MB",
+          "Minimum resolution 1080 × 1080 px",
           "1–2 images per aspect ratio",
+          "Safe zones apply to 9:16 — see next slide",
           "Material deadline 7 Sep 2026"
         ]
       },
-      "notes": "1:1 and 9:16 share a slide because the character limits and file format are identical — only the aspect ratio changes. Source rows 4–5. The spec does not mention safe zones; that sits on the findings slide as a question, not here as an instruction."
+      "notes": "9:16 and 1:1 share a slide because the file format and character limits are identical — only the aspect ratio changes. Source rows 4–5. Safe zones are specified separately for 9:16 and are on the next slide."
     },
     {
       "type": "format",
-      "eyebrow": "SOCIAL",
+      "eyebrow": "META",
       "title": "Safe zones",
       "frames": [
         {
-          "label": "1:1",
-          "w": 1440,
-          "h": 1440,
-          "caption": "1440 × 1440 px",
-          "sub": "top/bottom 14 % · sides 50 px",
-          "overlay": {
-            "type": "safearea",
-            "top": 0.14,
-            "bottom": 0.14,
-            "sides": 0.046
-          }
-        },
-        {
           "label": "9:16",
-          "w": 1440,
-          "h": 2560,
-          "caption": "1440 × 2560 px",
+          "w": 1080,
+          "h": 1920,
+          "caption": "1080 × 1920 px",
           "sub": "top 14 % · bottom 20 % · sides 50 px",
           "overlay": {
             "type": "safearea",
             "top": 0.14,
             "bottom": 0.2,
+            "sides": 0.046
+          }
+        },
+        {
+          "label": "1:1",
+          "w": 1080,
+          "h": 1080,
+          "caption": "1080 × 1080 px",
+          "sub": "top/bottom 14 % · sides 50 px",
+          "overlay": {
+            "type": "safearea",
+            "top": 0.14,
+            "bottom": 0.14,
             "sides": 0.046
           }
         }
@@ -177,7 +179,7 @@
         {
           "kind": "legend",
           "x": 0.72,
-          "y": 6.12,
+          "y": 6.35,
           "horizontal": true,
           "hstep": 3.1,
           "w": 2.7,
@@ -197,9 +199,9 @@
         "heading": "WHY THIS MATTERS",
         "items": [
           "The publisher adds a frame and a logo to the ad",
-          "Leave approx. 14 % clear at the top and bottom (250 px)",
+          "Leave approx. 14 % clear at the top and bottom (270 px)",
           "Leave approx. 50 px clear at the sides",
-          "In vertical formats leave approx. 20 % clear at the bottom (350 px)",
+          "In vertical formats leave approx. 20 % clear at the bottom (385 px)",
           "This keeps the frame or the call to action from covering text or the logo"
         ]
       },
@@ -420,7 +422,7 @@
           ],
           [
             "7 Sep 2026",
-            "Social — 3 asset groups",
+            "Meta — 3 asset groups",
             "Files",
             "First Last"
           ],
